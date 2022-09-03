@@ -1,4 +1,4 @@
-const Jsx = () => {
+const Jsx1 = () => {
 
     const name = "Ali Gel";
     const isAdmin = true;
@@ -11,4 +11,4 @@ const Jsx = () => {
     )
 }
 
-export default Jsx;
+export default Jsx1;

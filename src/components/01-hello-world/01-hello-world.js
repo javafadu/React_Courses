@@ -1,8 +1,9 @@
-import Comp from "./02-comp";
+import Comp from "../02-comp/02-comp";
+
 
 const HelloWorld = () => {
 
-    const name = "Ali Gel";
+   
 
     return (
         <h1>Hello New Big World <Comp></Comp></h1>
