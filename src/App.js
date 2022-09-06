@@ -9,6 +9,9 @@ import Jsx5 from "./components/03-jsx/jsx5";
 import Style1 from "./components/04-styles/style1";
 import Sstyle2 from "./components/04-styles/style2";
 import Style3 from "./components/04-styles/style3";
+import Clock1 from "./components/05-clock-digital/clock1";
+import Greetings from "./components/06-props/greetings";
+import Clock2 from "./components/07-clock2/clock2";
 
 
 function App() {
@@ -24,10 +27,13 @@ function App() {
       <JsxPractice></JsxPractice>
       <Style1></Style1>
       <Sstyle2></Sstyle2>
+      <Style3></Style3>
+      <Clock1></Clock1>
+      <Greetings></Greetings>
       */}
 
-    <Style3></Style3>
       
+      <Clock2 textColor="white" bgColor="brown"></Clock2>
 
     
       
