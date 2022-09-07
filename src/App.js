@@ -12,6 +12,7 @@ import Style3 from "./components/04-styles/style3";
 import Clock1 from "./components/05-clock-digital/clock1";
 import Greetings from "./components/06-props/greetings";
 import Clock2 from "./components/07-clock2/clock2";
+import Image1 from "./components/08-images/image1";
 
 
 function App() {
@@ -30,10 +31,10 @@ function App() {
       <Style3></Style3>
       <Clock1></Clock1>
       <Greetings></Greetings>
+      <Clock2 textColor="white" bgColor="brown"></Clock2>
       */}
 
-      
-      <Clock2 textColor="white" bgColor="brown"></Clock2>
+      <Image1></Image1>
 
     
       
