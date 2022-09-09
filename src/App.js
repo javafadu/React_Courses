@@ -12,7 +12,16 @@ import Style3 from "./components/04-styles/style3";
 import Clock1 from "./components/05-clock-digital/clock1";
 import Greetings from "./components/06-props/greetings";
 import Clock2 from "./components/07-clock2/clock2";
+import ImageGallery from "./components/08-images/image-gallery";
 import Image1 from "./components/08-images/image1";
+import ProfileCard from "./components/09-profile-card/profile-card";
+import BsClassic from "./components/10-bootstrap/bootstrap-classic";
+import BsDynamic from "./components/10-bootstrap/bootstrap-dynamic";
+import ReactIcon from "./components/11-icons/react-icon";
+import Shop from "./components/12-shop/shop";
+import State from "./components/13-state/state";
+import Stateless from "./components/13-state/stateless";
+import Counter from "./components/14-counter/counter";
 
 
 function App() {
@@ -32,9 +41,22 @@ function App() {
       <Clock1></Clock1>
       <Greetings></Greetings>
       <Clock2 textColor="white" bgColor="brown"></Clock2>
+      <Image1></Image1>
+
+       <ProfileCard name="Ayse Can" location="Istanbul, Turkey" shot="1" followers="2" following="10" avatar="profile.jpg"   />
+        <BsClassic/>
+      <BsDynamic/>
+         <ReactIcon/>
+            <Shop/>
+             <Stateless/>
+              <State></State>
       */}
 
-      <Image1></Image1>
+      <Counter/>
+    
+     
+  
+  
 
     
       
