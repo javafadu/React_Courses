@@ -1,4 +1,3 @@
-
 import HelloWorld from "./components/01-hello-world/01-hello-world";
 import JsxPractice from "./components/03-jsx/jsx-practice";
 import Jsx1 from "./components/03-jsx/jsx1";
@@ -21,16 +20,15 @@ import ReactIcon from "./components/11-icons/react-icon";
 import Shop from "./components/12-shop/shop";
 import State from "./components/13-state/state";
 import Stateless from "./components/13-state/stateless";
-ç
 import FunCounter from "./components/14-counter/counter-function";
 import Birthday from "./components/15-birthday/birthday";
-
+import UseEffect from "./components/16-useeffect/use-effect";
+import Clock3 from "./components/17-clock3-working/clock3";
 
 function App() {
   return (
     <div className="App">
-
-      { /*<HelloWorld/>
+      {/*<HelloWorld/>
       <Jsx1></Jsx1>
       <Jsx2></Jsx2>
       <Jsx3></Jsx3>
@@ -55,19 +53,12 @@ function App() {
                  <Counter/>
 
                 <FunCounter/>
+                 <Birthday/>
+                 <Birthday />
+                 <UseEffect />
       */}
 
-   
-      
-      <Birthday/>
-    
-     
-  
-  
-
-    
-      
-      
+      <Clock3 />
     </div>
   );
 }
