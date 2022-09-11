@@ -21,7 +21,9 @@ import ReactIcon from "./components/11-icons/react-icon";
 import Shop from "./components/12-shop/shop";
 import State from "./components/13-state/state";
 import Stateless from "./components/13-state/stateless";
-import Counter from "./components/14-counter/counter";
+ç
+import FunCounter from "./components/14-counter/counter-function";
+import Birthday from "./components/15-birthday/birthday";
 
 
 function App() {
@@ -50,9 +52,14 @@ function App() {
             <Shop/>
              <Stateless/>
               <State></State>
+                 <Counter/>
+
+                <FunCounter/>
       */}
 
-      <Counter/>
+   
+      
+      <Birthday/>
     
      
   

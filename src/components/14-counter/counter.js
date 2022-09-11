@@ -1,35 +1,37 @@
-import React, { useState } from 'react'
-import { Button, ButtonGroup } from 'reactstrap'
+import React, { useState } from "react";
+import { Button, ButtonGroup, Progress } from "reactstrap";
 
 const Counter = () => {
+  const [counter, setCounter] = useState(0);
 
-    const[counter, setCounter] = useState(0);
 
-    const handleCounter = (num) => { 
-        setCounter((prev)=>prev+num);
-     };
-    
 
   return (
-    <div>
 
-<ButtonGroup>
-  <Button color="danger" onClick={handleCounter(-1)}>
-    -
-  </Button>
-  <Button color="secondary" disabled>
-    {counter}
-  </Button>
-  <Button color="success" onClick={handleCounter(1)}>
-    +
-  </Button>
+    <>
+    <ButtonGroup>
+      <Button color="danger" onClick={() => setCounter((prev) => prev>0 ? prev - 1 : 0)}>
+        -
+      </Button>
+      <Button color="secondary" disabled>
+        {counter}
+      </Button>
+      <Button color="success" onClick={() => setCounter((prev) => prev + 1)}>
+        +
+      </Button>
+      <Button color="info" onClick={() => setCounter(0)}>
+        Reset
+      </Button>
+    </ButtonGroup>
 
-  <Button color="info" onClick={()=> setCounter(0)}>
-    Reset
-  </Button>
-</ButtonGroup>
-    </div>
-  )
-}
+    <Progress
+    value={50}
+    />
 
-export default Counter
+
+    </>
+
+  );
+};
+
+export default Counter;
