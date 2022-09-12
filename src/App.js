@@ -24,6 +24,12 @@ import FunCounter from "./components/14-counter/counter-function";
 import Birthday from "./components/15-birthday/birthday";
 import UseEffect from "./components/16-useeffect/use-effect";
 import Clock3 from "./components/17-clock3-working/clock3";
+import ClickTimes from "./components/18-useEffect/useeffect";
+import Useeffect from "./components/18-useEffect/useeffect";
+import RandomImages from "./components/19-randomImage/randomImage";
+import RandomImage from "./components/19-randomImage/randomImage";
+import UseRef from "./components/20-useref/useref";
+import ClassTypeTest from "./components/21-classtype/classtype";
 
 function App() {
   return (
@@ -56,9 +62,20 @@ function App() {
                  <Birthday/>
                  <Birthday />
                  <UseEffect />
+                 <Clock3 />
+                 <Clock3 />
+        <ClickTimes></ClickTimes>
+         <RandomImages/>
+        
+                 
       */}
 
-      <Clock3 />
+
+      
+      <ClassTypeTest message="Hello World"></ClassTypeTest>
+      
+
+      
     </div>
   );
 }
