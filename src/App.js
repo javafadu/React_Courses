@@ -32,6 +32,14 @@ import UseRef from "./components/20-useref/useref";
 import ClassTypeTest from "./components/21-classtype/classtype";
 import UserCards from "./components/22-fetch-user-card/user-cards";
 import Countries from "./components/23-axios-countries/countires";
+import AxiosCrud from "./components/24-axios-crud/axios-crud";
+import Form1 from "./components/25-forms/form1";
+import Form2 from "./components/25-forms/form2";
+import Form3 from "./components/25-forms/form3";
+import Form4 from "./components/25-forms/form4";
+import Form5 from "./components/25-forms/form5-validation";
+import Form6 from "./components/25-forms/form6-furmik";
+
 
 function App() {
   return (
@@ -70,12 +78,19 @@ function App() {
          <RandomImages/>
         <ClassTypeTest message="Hello World"></ClassTypeTest>
           <UserCards/>
+            <Countries/>
+             <AxiosCrud/>
+             <Form1></Form1>
+              <Form2/>
+              <Form3/>
+               <Form4/>
+                <Form5/>
                  
       */}
 
-      <Countries/>
-    
-      
+     
+     <Form6/>
+     
       
 
       
