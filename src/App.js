@@ -38,19 +38,55 @@ import Form2 from "./components/25-forms/form2";
 import Form3 from "./components/25-forms/form3";
 import Form4 from "./components/25-forms/form4";
 import Form5 from "./components/25-forms/form5-validation";
-import Form6 from "./components/25-forms/form6-furmik";
+import Form6 from "./components/25-forms/form6-formik";
+import Style2 from "./components/04-styles/style2";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Col, Container, Row } from "reactstrap";
+import Header from "./components/00-home/header/header";
+import Menu from "./components/00-home/menu/menu";
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      {/*<HelloWorld/>
-      <Jsx1></Jsx1>
-      <Jsx2></Jsx2>
-      <Jsx3></Jsx3>
-      <Jsx4></Jsx4>
-      <Jsx5></Jsx5> 
-      <JsxPractice></JsxPractice>
+    <BrowserRouter>
+      <Header />
+
+      <Container fluid>
+        <Row>
+          <Col sm={2}>
+            <Menu />
+          </Col>
+          <Col sm={10} className="p-5">
+            <Routes>
+              <Route path="/hello-world" element={<HelloWorld />} />
+              <Route path="/jsx1" element={<Jsx1 />} />
+              <Route path="/jsx2" element={<Jsx2 />} />
+              <Route path="/jsx3" element={<Jsx3 />} />
+              <Route path="/jsx4" element={<Jsx4 />} />
+              <Route path="/jsx5" element={<Jsx5 />} />
+              <Route path="/jsx-practise" element={<JsxPractice />} />
+              <Route path="/style1" element={<Style1 />} />
+              <Route path="/style2" element={<Style2 />} />
+              <Route path="/style3" element={<Style3 />} />
+            </Routes>
+          </Col>
+        </Row>
+      </Container>
+
+       
+      
+      </BrowserRouter>
+
+
+
+      
+        /*
+      
+   
+    
       <Style1></Style1>
       <Sstyle2></Sstyle2>
       <Style3></Style3>
@@ -85,16 +121,17 @@ function App() {
               <Form3/>
                <Form4/>
                 <Form5/>
+                     <Form6/>
                  
-      */}
+      */
 
      
-     <Form6/>
+
      
       
 
       
-    </div>
+  
   );
 }
 
