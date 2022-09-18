@@ -6,56 +6,52 @@ const Menu = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">Hello World</Link>
+          <Link to="/hello-world">Hello World</Link>
         </li>
         <li>
-          <Link to="/">Comp</Link>
+          <Link to="/comp">Comp</Link>
         </li>
         <li>
-          <Link to="/">Comp</Link>
-        </li>
-        <li>
-          <Link to="/">Comp</Link>
-        </li>
-        <li>
-          <Link to="/">JSX</Link>
+          JSX
           <ul>
             <li>
-              <Link to="/">JSX1</Link>
+              <Link to="/jsx1">JSX1</Link>
             </li>
             <li>
-              <Link to="/">JSX2</Link>
+              <Link to="/jsx2">JSX2</Link>
             </li>
             <li>
-              <Link to="/">JSX3</Link>
+              <Link to="/jsx3">JSX3</Link>
             </li>
             <li>
-              <Link to="/">JSX4</Link>
+              <Link to="/jsx4">JSX4</Link>
             </li>
             <li>
-              <Link to="/">JSX5</Link>
+              <Link to="/jsx5">JSX5</Link>
             </li>
             <li>
-              <Link to="/">JSX Practise</Link>
+              <Link to="/jsx-practise">JSX Practise</Link>
             </li>
           </ul>
         </li>
 
         <li>
-          <Link to="/">Styles</Link>
+          Styles
 
           <ul>
             <li>
-              <Link to="/">Style1</Link>
+              <Link to="/style1">Style1</Link>
             </li>
             <li>
-              <Link to="/">Style2</Link>
+              <Link to="/style2">Style2</Link>
             </li>
             <li>
-              <Link to="/">Style3</Link>
+              <Link to="/style3">Style3</Link>
             </li>
           </ul>
         </li>
+
+        <li><Link to="/exchange">Exchange</Link></li>
       </ul>
     </nav>
   );
